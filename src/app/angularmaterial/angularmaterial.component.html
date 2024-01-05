@@ -1,0 +1,98 @@
+<!-- <p>angularmaterial works!</p> -->
+
+<!-- <p>This is Slide Toggle</p> -->
+<mat-slide-toggle checked #toggleBtnS></mat-slide-toggle> {{toggleBtnS.checked}} <hr>
+
+<!-- Mat Buttons Different Examples -->
+<div>
+    <button mat-button>Here</button> 
+    <button mat-fab>Here</button>
+    <button mat-flat-button>Here</button>
+    <button mat-icon-button>Here</button>
+    <button mat-mini-fab>Here</button>
+    <button mat-raised-button>Here</button>
+    <button mat-stroked-button>Here</button>
+</div> <hr>
+
+<!-- Mat Buttons Different Examples -->
+<div>
+    <button color="primary" mat-button>Primary</button>
+    <button color="accent" mat-button>Accent</button>
+    <button color="warn" disableRipple mat-button>Warn</button>
+    <button color="primary" mat-raised-button>Primary</button>
+    <button color="accent" mat-raised-button>Accent</button>
+    <button color="warn" mat-raised-button>Warn</button>
+</div> <hr>
+
+<!-- Mat Button Fab  -->
+<button id="extended" mat-fab extended>
+    <mat-icon>home</mat-icon>
+    Home
+</button> <hr>
+
+<!-- Mat Button Toggle -->
+<div>
+    <mat-button-toggle #toggleBtn1>Toggle Button</mat-button-toggle>
+    {{toggleBtn1.checked}}
+</div> <hr>
+
+<div>
+    <mat-button-toggle #toggleBtn2 checked disableRipple>Toggle Button</mat-button-toggle>
+    {{toggleBtn2.checked}}
+</div> <hr>
+
+<div>
+    <mat-button-toggle #toggleBtn3 checked disableRipple disabled>Toggle Button</mat-button-toggle>
+    {{toggleBtn3.checked}}
+</div> <hr>
+
+<!-- Toggle Group Single Selection Radio Button Type -->
+<h3>Single selection</h3>
+<mat-button-toggle-group #toggleGroup="matButtonToggleGroup" name="favoriteColor" aria-label="Favorite Color">
+    <mat-button-toggle value="Red">Red</mat-button-toggle>
+    <mat-button-toggle value="Green">Green</mat-button-toggle>
+    <mat-button-toggle value="Blue">Blue</mat-button-toggle>
+</mat-button-toggle-group> {{toggleGroup.value}} <hr>
+
+<!-- Toggle Group Multiple Selection CheckBox Type -->
+<h3>Multiple Selection</h3>
+<mat-button-toggle-group name="ingredients" #toggleGroup1="matButtonToggleGroup" aria-label="Ingredients" multiple>
+    <mat-button-toggle value="Flour">Flour</mat-button-toggle>
+    <mat-button-toggle value="Eggs">Eggs</mat-button-toggle>
+    <mat-button-toggle value="Sugar">Sugar</mat-button-toggle>
+</mat-button-toggle-group> {{toggleGroup1.value}} <hr>
+
+<!-- Mat Icons Examples -->
+<div>
+    <mat-icon>accessibility</mat-icon>
+    <mat-icon>http</mat-icon>
+    <mat-icon>https</mat-icon>
+</div> <hr>
+
+<!-- Mat Icons Examples -->
+<div>
+    <button id="extended" mat-raised-button extended>
+        <mat-icon>home</mat-icon>
+        Home
+    </button>
+    <button id="extended" mat-raised-button extended>
+        <mat-icon><span class="material-symbols-outlined">
+            shopping_cart_checkout
+            </span></mat-icon>
+        Shopping Cart Checkout
+    </button>
+    <button id="extended" mat-raised-button extended>
+        <mat-icon>expand_circle_down</mat-icon>
+        Expand Circle
+    </button>
+    <!-- <button id="extended" mat-raised-button extended> -->
+        <mat-icon color="accent">taxi_alert</mat-icon>
+        <mat-icon color="primary">bluetooth_connected</mat-icon>
+        <mat-icon color="warn">crisis_alert</mat-icon>
+        <mat-icon color="accent"><span class="material-symbols-outlined">
+            local_taxi
+        </span></mat-icon>
+    <!-- </button> -->
+</div> <hr>
+
+<!-- Badges -->

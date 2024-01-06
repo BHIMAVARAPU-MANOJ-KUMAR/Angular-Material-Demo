@@ -5,7 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './angularmaterial.component.html',
   styleUrls: ['./angularmaterial.component.css']
 })
-export class AngularmaterialComponent {
-alertsEnabled: any;
-
-}
+export class AngularmaterialComponent {}

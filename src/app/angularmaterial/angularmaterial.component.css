@@ -9,3 +9,17 @@ button {
 mat-icon {
     margin-right: 3rem;
 }
+
+h1 {
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.animatediv {
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.animateflashdiv {
+    animation-duration: 5s;
+}

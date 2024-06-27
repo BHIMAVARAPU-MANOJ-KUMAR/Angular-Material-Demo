@@ -10,16 +10,56 @@ mat-icon {
     margin-right: 3rem;
 }
 
-h1 {
-    animation-duration: 5s;
-    animation-delay: 5s;
+div {
+    margin: 2rem;
 }
 
-.animatediv {
-    animation-duration: 5s;
-    animation-delay: 5s;
+mat-progress-spinner {
+    margin-bottom: 1rem;
 }
 
-.animateflashdiv {
-    animation-duration: 5s;
+.navbar {
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+div > span {
+    padding-right: 1rem;
+}
+
+mat-sidenav-container {
+    height: 30%;
+}
+
+mat-sidenav, mat-sidenav-content {
+    padding: 16px;
+}
+
+mat-sidenav {
+    background-color: lightcoral;
+    width: 100px;
+}
+
+.example-container {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+}
+
+.center{
+    margin: 10rem;
+}
+
+mat-grid-tile {
+    background: lightblue;
+}
+
+.example-card {
+    max-width: 400px;
+}
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
 }
